@@ -1,0 +1,47 @@
+/* Patrones globales del CSS */
+
+/* Tipo de Títulos, Subtítulos, Enlaces y Botones: Poppins */
+h1, h2, h3, h4, h5, h6, a, button { font-family: 'Poppins', sans-serif; }
+
+/* Tipo de Párrafos: Oxygen */
+p, span, strong, em, div { font-family: 'Oxygen', sans-serif; }
+
+/* Quitar Margen por defecto de Body  */
+body { margin: 0 auto !important; }
+
+/* Quitar margen por detecto en Títulos y Párrafos */
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+/* Confirmar display: block; a elementos de estructura HTML5 */
+header, aside, main, footer, section, article, figure, nav, figcaption { display: block; }
+
+
+
+
+/* Configuración del estilo propio */
+
+
+/* Componentes Aside: Menú Responsive */
+aside#menu-responsive {  }
+
+aside#menu-responsive a#abrir {  }
+aside#menu-responsive a#abrir:hover {  }
+
+aside#menu-responsive a#cerrar {  }
+aside#menu-responsive a#cerrar:hover {  }
+
+aside#menu-responsive nav {  }
+aside#menu-responsive nav a {  }
+aside#menu-responsive nav a:hover {  }
+
+
+
+/* Componentes Aside: Botón flotante de WhatsApp */
+aside#boton-wp {  }
+aside#boton-wp a {  }
+aside#boton-wp a:hover {  }
+
+
+
+/* Caja Main */
+main {  }
